@@ -2,16 +2,35 @@
 <html lang="en">
 
 <head>
-    <title>My Page Title</title>
+    <title>Alex Russ Portfolio</title>
     <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
 </head>
 
+<!-- 
+    Fun Fact Page:
+√-- The title of page should be the same as your home page and must include the favicon as used for the
+home page
+√-- It should also contain the navigation bar listing the three pages, as you have for your home page
+√-- The heading of the page should be as follows - "Some fun facts about me"
+
+The rest of the content of this page must have three independent segments where you will specify the
+following:
+√-- Your [current] favorite book title, with its cover image, link to where readers can purchase the book
+(Amazon.com, Kindle etc.), and a short description in your words what you like about the book.
+-- your [current] favorite audio track title with artist name, with a short audio sample and link to music
+shop place where the audio can be purchased or link to YouTube or YouTube Music or Spotify.
+-- Your [current] favorite movie or tv series name, with a trailer video embedded from YouTube Website.
+This embedding can be done using the page within page style or what is called a frame display i.e. a
+different webpage window cleanly embedded within your webpage. Although styling is not required,
+you must take care of structuring your content/html elements, which can be done using html attributes.
+ -->
+
 <body>
     <header>
         <!-- Heading -->
-        <h1>Fun facts about me</h1>
+        <h1>Some fun facts about me</h1>
 
         <!-- Nav bar -->
         <nav>
@@ -23,7 +42,31 @@
     </header>
 
     <main>
-        Main Content
+        <section>
+            <h2>Favorite Book</h2>
+            <img src="../assets/img/ready_player_one.jpg" alt="Ready Player One book cover" width="200">
+            <p>
+                <a href="https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448">Ready Player One</a>
+                is a science fiction novel by Ernest Cline. It takes place in the year 2045, where the world is in
+                shambles and people escape their reality by playing a virtual reality game called the OASIS. The
+                creator of the OASIS, James Halliday, dies and leaves his fortune to whoever can find the Easter Egg
+                hidden in the game. The story follows Wade Watts, a teenager who is obsessed with the OASIS and
+                Halliday, as he tries to find the Easter Egg before the evil corporation IOI does.
+            </p>
+        </section>
+
+        <section>
+            <h2>Favorite Song</h2>
+            <audio controls>
+                <source src="../assets/audio/sinkholes_of_darkness.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>
+                <a href="https://youtu.be/7fFYtnfOdAI?si=59h_FSlHFoJbE-Jr">Sinkholes of Darkness</a> PLACEHOLDER PLACEHOLDER PLACEHOLDER is a song by Rick
+                Astley. It was released in 1987 and is the first track on his album Whenever You Need Somebody. It
+                became a meme in 2007 when it was used in a bait-and-switch prank called "Rickrolling".
+            </p>
+        </section>
     </main>
 
     <footer>
