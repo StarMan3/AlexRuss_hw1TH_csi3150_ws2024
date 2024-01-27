@@ -19,9 +19,9 @@ The rest of the content of this page must have three independent segments where 
 following:
 √-- Your [current] favorite book title, with its cover image, link to where readers can purchase the book
 (Amazon.com, Kindle etc.), and a short description in your words what you like about the book.
--- your [current] favorite audio track title with artist name, with a short audio sample and link to music
+√-- your [current] favorite audio track title with artist name, with a short audio sample and link to music
 shop place where the audio can be purchased or link to YouTube or YouTube Music or Spotify.
--- Your [current] favorite movie or tv series name, with a trailer video embedded from YouTube Website.
+√-- Your [current] favorite movie or tv series name, with a trailer video embedded from YouTube Website.
 This embedding can be done using the page within page style or what is called a frame display i.e. a
 different webpage window cleanly embedded within your webpage. Although styling is not required,
 you must take care of structuring your content/html elements, which can be done using html attributes.
@@ -43,6 +43,7 @@ you must take care of structuring your content/html elements, which can be done 
 
     <main>
         <section>
+            <!-- Favorite Book -->
             <h2>Favorite Book</h2>
             <img src="../assets/img/ready_player_one.jpg" alt="Ready Player One book cover" width="200">
             <p>
@@ -56,6 +57,7 @@ you must take care of structuring your content/html elements, which can be done 
         </section>
 
         <section>
+            <!-- Favorite Songs -->
             <h2>Favorite Songs</h2>
             <label for="audio1">Terraria - Sinkholes of Darkness</label>
             <audio controls id="audio1">
@@ -76,6 +78,19 @@ you must take care of structuring your content/html elements, which can be done 
             <p>
                 <a href="https://youtu.be/m2zUrruKjDQ">Mr. Brightside</a> is a song by The Killers. It was released in 2003 and is the first track on their
                 album Hot Fuss. It is one of the band's most popular songs and is often played at sporting events.
+            </p>
+        </section>
+
+        <section>
+            <!-- Favorite Movie -->
+            <h2>Favorite Movie</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/0VH9WCFV6XQ"
+                title="Five Nights At Freddy&#39;s | Official Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <p>
+                The Five Nights at Freddy's movie is about a security guard who works at a pizza place called Freddy Fazbear's Pizza. The animatronics at the restaurant come to life at night and try to kill the security guard. The movie is based on the video game series of the same name.
+            </p>
         </section>
     </main>
 
